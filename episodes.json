@@ -1,16 +1,25 @@
 [{
   "title" : "Spooky Story",
   "author" : "Kim Cass",
-  "description" : "This is a scary story about bats"
+  "description" : "This is a scary story about bats",
+  "episode_link" : "https://www.thenosleeppodcast.com/episodes/s13/13x18",
+  "episode_season" : 13,
+  "episode" : 18
 },
   {
     "title" : "Vampire Story",
     "author" : "Tom Forbes",
-    "description" : "This is a dumb story about vampires"
+    "description" : "This is a dumb story about vampires",
+    "episode_link" : "https://www.thenosleeppodcast.com/episodes/s13/13x17",
+    "episode_season" : 13,
+    "episode" : 17
   },
   {
     "title" : "Spider Story",
     "author" : "Kim Forbes",
-    "description" : "This is a dumb scary story about vampire bats"
-  }
+    "description" : "This is a dumb scary story about vampire bats",
+    "episode_link" : "https://www.thenosleeppodcast.com/episodes/s13/13x16",
+    "episode_season" : 13,
+    "episode" : 16
+   }
 ]
