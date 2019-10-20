@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col">
+    <form action="<%= url_for(action: 'query', controller: 'search') %>" method="get">
+      <input value="<%= params[:query] %>"  name="query" class="form-control form-control-lg" type="text" placeholder="Type your Search">
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <ul class="list-unstyled">
+      <% @episodes.each do |episode| %>
+        <li class="media my-4">
+          <img src="https://placeimg.com/100/100/nature/sepia" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1"> <%= episode["title"] %></h5>
+            <i>
+              <a href= "<%= url_for(action: 'query', controller: 'search', query: episode["author"] ) %>">
+                <%= episode["author"] %>
+              </a>
+               </i>
+            <p> <%= episode["description"] %>
+              <br/>
+              <a href="<%= episode["episode_link"] %>" target="_blank">
+                Season <%= episode["episode_season"] %> Episode <%= episode["episode"] %>
+              </a>
+            </p>
+          </div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
