@@ -1,0 +1,16 @@
+[{
+  "title" : "Spooky Story",
+  "author" : "Kim Cass",
+  "description" : "This is a scary story about bats"
+},
+  {
+    "title" : "Vampire Story",
+    "author" : "Tom Forbes",
+    "description" : "This is a dumb story about vampires"
+  },
+  {
+    "title" : "Spider Story",
+    "author" : "Kim Forbes",
+    "description" : "This is a dumb scary story about vampire bats"
+  }
+]
